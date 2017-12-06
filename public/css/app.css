@@ -1,0 +1,47 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    line-height: 1.5;
+}
+
+h1 {
+    font-family: 'Saira Extra Condensed', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #CE1B1F;
+}
+
+p {
+    font-family: 'Roboto', sans-serif;
+}
+
+.navbar {
+    border-radius: 0;
+}
+
+.tag-line p {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    background-color: #CE1B1F;
+    color: #FFF;
+}
+
+.about {
+    padding-top: 30px;
+}
+
+.fa-social {
+    color: #CE1B1F;
+    font-size: 25px;
+}
+
+.jumbotron {
+    background-color: #CE1B1F;
+    color: #FFF;
+}
+
+footer {
+    margin-top: 50px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}

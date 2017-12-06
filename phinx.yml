@@ -1,0 +1,35 @@
+paths:
+    migrations: %%PHINX_CONFIG_DIR%%/application/database/migrations
+    seeds: %%PHINX_CONFIG_DIR%%/application/database/seeds
+
+environments:
+    default_migration_table: phinxlog
+    default_database: development
+    production:
+        adapter: pgsql
+        host: ec2-107-22-250-33.compute-1.amazonaws.com
+        name: d688gjfnm8emhn
+        user: wahgbyudtqzkne
+        pass: '2c329396c0e45ca23a2608697cdb92181f0e22a365d05f17384d5ed9736b852e'
+        port: 5432
+        charset: utf8
+
+    development:
+        adapter: mysql
+        host: localhost
+        name: powercard
+        user: root
+        pass: ''
+        port: 3306
+        charset: utf8
+
+    testing:
+        adapter: pgsql
+        host: localhost
+        name: powercard
+        user: postgres
+        pass: 'toor'
+        port: 5432
+        charset: utf8
+
+version_order: creation
