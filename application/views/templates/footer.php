@@ -49,7 +49,7 @@
             var map=new google.maps.Map(document.getElementById("googleMap"),mapProp);
         }
     </script>
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBJnbNy5p1lUKv90bIYAsMr0brK69SvDU0&callback=myMap"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDRnl12oF1C7zow8k8254uYabLgF_jtPw8&callback=myMap"></script>
   <?php endif;?>
 
 <?php if($this->uri->segment(1) === 'services'): ?>
